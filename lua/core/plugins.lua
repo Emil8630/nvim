@@ -13,7 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
   'wbthomason/packer.nvim',
-  'ellisonleao/gruvbox.nvim',
+  --'ellisonleao/gruvbox.nvim',
   'rebelot/kanagawa.nvim',
   'nvim-tree/nvim-tree.lua',
   'nvim-tree/nvim-web-devicons',
@@ -30,6 +30,7 @@ local plugins = {
 -- Mitt eGna
   'romgrk/barbar.nvim',
   'lewis6991/gitsigns.nvim',
+  'Emil8630/everforest-nvim2',
 
   -- rust babyyyyyyy
   'mfussenegger/nvim-dap',
