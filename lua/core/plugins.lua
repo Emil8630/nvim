@@ -17,7 +17,7 @@ local plugins = {
   'rebelot/kanagawa.nvim',
   'nvim-tree/nvim-tree.lua',
   'nvim-tree/nvim-web-devicons',
-  'nvim-lualine/lualine.nvim',
+--  'nvim-lualine/lualine.nvim',
   'nvim-treesitter/nvim-treesitter',
   'bluz71/vim-nightfly-colors',
   'vim-test/vim-test',
@@ -31,6 +31,8 @@ local plugins = {
   'romgrk/barbar.nvim',
   'lewis6991/gitsigns.nvim',
   'Emil8630/everforest-nvim2',
+  'vim-airline/vim-airline',
+  'vim-airline/vim-airline-themes',
 
   -- rust babyyyyyyy
   'mfussenegger/nvim-dap',
@@ -58,3 +60,5 @@ local plugins = {
 local opts = {}
 
 require("lazy").setup(plugins, opts)
+
+vim.g.airline_theme = 'raven'
