@@ -33,6 +33,7 @@ local plugins = {
   'Emil8630/everforest-nvim2',
   'vim-airline/vim-airline',
   'vim-airline/vim-airline-themes',
+  'ap/vim-css-color',
 
   -- rust babyyyyyyy
   'mfussenegger/nvim-dap',
